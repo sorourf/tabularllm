@@ -1,0 +1,249 @@
+Sample Serialized Texts (first 10 train, first 10 test):
+
+================================================================================
+TRAINING SAMPLES:
+================================================================================
+
+Sample 1 (Label: 1):
+- age range: 40-45
+- feeling sad or tearful: No
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: No
+- feeling of guilt: No
+- problems of bonding with baby: Yes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 2 (Label: 1):
+- age range: 30-35
+- feeling sad or tearful: Sometimes
+- irritable towards baby and partner: No
+- trouble sleeping at night: No
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: No
+- feeling of guilt: Maybe
+- problems of bonding with baby: Yes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 3 (Label: 0):
+- age range: 25-30
+- feeling sad or tearful: Sometimes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: No
+- feeling of guilt: Maybe
+- problems of bonding with baby: No
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 4 (Label: 1):
+- age range: 45-50
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: No
+- trouble sleeping at night: No
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: No
+- feeling of guilt: Maybe
+- problems of bonding with baby: Yes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 5 (Label: 1):
+- age range: 35-40
+- feeling sad or tearful: No
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: No
+- feeling of guilt: No
+- problems of bonding with baby: No
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 6 (Label: 0):
+- age range: 40-45
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: No
+- problems concentrating or making decision: No
+- overeating or loss of appetite: Yes
+- feeling of guilt: Yes
+- problems of bonding with baby: Yes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 7 (Label: 1):
+- age range: 30-35
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: No
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: No
+- overeating or loss of appetite: No
+- feeling of guilt: Maybe
+- problems of bonding with baby: Sometimes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 8 (Label: 1):
+- age range: 40-45
+- feeling sad or tearful: No
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: No
+- feeling of guilt: No
+- problems of bonding with baby: Yes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 9 (Label: 1):
+- age range: 30-35
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: Yes
+- feeling of guilt: Yes
+- problems of bonding with baby: Yes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 10 (Label: 1):
+- age range: 25-30
+- feeling sad or tearful: Sometimes
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: Not at all
+- feeling of guilt: Maybe
+- problems of bonding with baby: Yes
+- suicide attempt history: Not interested to say
+--------------------------------------------------------------------------------
+
+================================================================================
+TEST SAMPLES:
+================================================================================
+
+Sample 1 (Label: 1, Predicted: 1):
+- age range: 40-45
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: Yes
+- feeling of guilt: No
+- problems of bonding with baby: Yes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 2 (Label: 0, Predicted: 0):
+- age range: 45-50
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: No
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: Not at all
+- feeling of guilt: Yes
+- problems of bonding with baby: Sometimes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 3 (Label: 1, Predicted: 1):
+- age range: 40-45
+- feeling sad or tearful: No
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: No
+- feeling of guilt: No
+- problems of bonding with baby: No
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 4 (Label: 1, Predicted: 1):
+- age range: 30-35
+- feeling sad or tearful: Sometimes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: No
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: Not at all
+- feeling of guilt: No
+- problems of bonding with baby: Sometimes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 5 (Label: 0, Predicted: 0):
+- age range: 40-45
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: Yes
+- overeating or loss of appetite: No
+- feeling of guilt: Yes
+- problems of bonding with baby: Yes
+- suicide attempt history: Not interested to say
+--------------------------------------------------------------------------------
+
+Sample 6 (Label: 1, Predicted: 1):
+- age range: 30-35
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: No
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: Not at all
+- feeling of guilt: Maybe
+- problems of bonding with baby: Sometimes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 7 (Label: 1, Predicted: 0):
+- age range: 40-45
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: No
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: Yes
+- feeling of guilt: Yes
+- problems of bonding with baby: Sometimes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 8 (Label: 0, Predicted: 0):
+- age range: 40-45
+- feeling sad or tearful: Sometimes
+- irritable towards baby and partner: Sometimes
+- trouble sleeping at night: Two or more days a week
+- problems concentrating or making decision: No
+- overeating or loss of appetite: No
+- feeling of guilt: Maybe
+- problems of bonding with baby: No
+- suicide attempt history: No
+--------------------------------------------------------------------------------
+
+Sample 9 (Label: 0, Predicted: 1):
+- age range: 30-35
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: Yes
+- trouble sleeping at night: Yes
+- problems concentrating or making decision: No
+- overeating or loss of appetite: Yes
+- feeling of guilt: No
+- problems of bonding with baby: Yes
+- suicide attempt history: Yes
+--------------------------------------------------------------------------------
+
+Sample 10 (Label: 1, Predicted: 1):
+- age range: 45-50
+- feeling sad or tearful: Yes
+- irritable towards baby and partner: No
+- trouble sleeping at night: No
+- problems concentrating or making decision: Often
+- overeating or loss of appetite: Yes
+- feeling of guilt: No
+- problems of bonding with baby: Sometimes
+- suicide attempt history: No
+--------------------------------------------------------------------------------
