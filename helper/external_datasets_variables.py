@@ -696,3 +696,29 @@ template_student_depression_list = '\n'.join(['- ' + v + ': ${' + k + '}' for k,
 template_student_depression_list_values = '\n'.join(['${' + k + '}' for k, v in depression_feature_names])
 template_student_depression_list_shuffled = template_student_depression_list
 template_config_student_depression_list_shuffled = template_config_student_depression_list
+
+
+########################################################################################################################
+# postpartum_depression
+########################################################################################################################
+# Postpartum depression dataset with maternal mental health indicators
+postpartum_feature_names = [
+    ('age', 'age range'),
+    ('feeling_sad_or_tearful', 'feeling sad or tearful'),
+    ('irritable_towards_baby_partner', 'irritable towards baby and partner'),
+    ('trouble_sleeping_at_night', 'trouble sleeping at night'),
+    ('problems_concentrating_or_making_decision', 'problems concentrating or making decision'),
+    ('overeating_or_loss_of_appetite', 'overeating or loss of appetite'),
+    ('feeling_of_guilt', 'feeling of guilt'),
+    ('problems_of_bonding_with_baby', 'problems of bonding with baby'),
+    ('suicide_attempt', 'suicide attempt history'),
+]
+
+template_config_postpartum_depression = {
+    'pre': {
+        # All features are categorical, no special preprocessing needed
+    }
+}
+
+template_postpartum_depression_list = '\n'.join(['- ' + v + ': ${' + k + '}' for k, v in postpartum_feature_names])
+template_config_postpartum_depression_list = template_config_postpartum_depression
