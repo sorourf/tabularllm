@@ -1,0 +1,389 @@
+Sample Serialized Texts (first 10 train, first 10 test):
+
+================================================================================
+TRAINING SAMPLES:
+================================================================================
+
+Sample 1 (Label: 0):
+- age: 21
+- gender: Male
+- city: Pune
+- profession: Student
+- academic pressure level (1-5): 2
+- work pressure level (0-5): 0
+- CGPA (grade point average): 6.76
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: Less than 5 hours
+- dietary habits: Healthy
+- degree program: BA
+- has had suicidal thoughts: Yes
+- work/study hours per day: 4
+- financial stress level (1-5): 1
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 2 (Label: 1):
+- age: 22
+- gender: Female
+- city: Indore
+- profession: Student
+- academic pressure level (1-5): 4
+- work pressure level (0-5): 0
+- CGPA (grade point average): 8.59
+- study satisfaction level (1-5): 3
+- job satisfaction level (0-5): 0
+- sleep duration: More than 8 hours
+- dietary habits: Healthy
+- degree program: MCA
+- has had suicidal thoughts: Yes
+- work/study hours per day: 8
+- financial stress level (1-5): 5
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 3 (Label: 1):
+- age: 28
+- gender: Male
+- city: Lucknow
+- profession: Student
+- academic pressure level (1-5): 3
+- work pressure level (0-5): 0
+- CGPA (grade point average): 5.81
+- study satisfaction level (1-5): 5
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Unhealthy
+- degree program: MSc
+- has had suicidal thoughts: Yes
+- work/study hours per day: 10
+- financial stress level (1-5): 5
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 4 (Label: 1):
+- age: 24
+- gender: Male
+- city: Bangalore
+- profession: Student
+- academic pressure level (1-5): 5
+- work pressure level (0-5): 0
+- CGPA (grade point average): 8.85
+- study satisfaction level (1-5): 3
+- job satisfaction level (0-5): 0
+- sleep duration: Less than 5 hours
+- dietary habits: Moderate
+- degree program: BSc
+- has had suicidal thoughts: Yes
+- work/study hours per day: 7
+- financial stress level (1-5): 2
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 5 (Label: 1):
+- age: 29
+- gender: Female
+- city: Kolkata
+- profession: Student
+- academic pressure level (1-5): 1
+- work pressure level (0-5): 0
+- CGPA (grade point average): 8.95
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: More than 8 hours
+- dietary habits: Moderate
+- degree program: MBBS
+- has had suicidal thoughts: Yes
+- work/study hours per day: 10
+- financial stress level (1-5): 3
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 6 (Label: 0):
+- age: 31
+- gender: Female
+- city: Kolkata
+- profession: Student
+- academic pressure level (1-5): 1
+- work pressure level (0-5): 0
+- CGPA (grade point average): 9.39
+- study satisfaction level (1-5): 4
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Unhealthy
+- degree program: M.Com
+- has had suicidal thoughts: No
+- work/study hours per day: 2
+- financial stress level (1-5): 1
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 7 (Label: 1):
+- age: 19
+- gender: Male
+- city: Indore
+- profession: Student
+- academic pressure level (1-5): 3
+- work pressure level (0-5): 0
+- CGPA (grade point average): 9.79
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: More than 8 hours
+- dietary habits: Moderate
+- degree program: Class 12
+- has had suicidal thoughts: Yes
+- work/study hours per day: 8
+- financial stress level (1-5): 5
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 8 (Label: 1):
+- age: 24
+- gender: Female
+- city: Faridabad
+- profession: Student
+- academic pressure level (1-5): 5
+- work pressure level (0-5): 0
+- CGPA (grade point average): 9.04
+- study satisfaction level (1-5): 5
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Healthy
+- degree program: M.Com
+- has had suicidal thoughts: Yes
+- work/study hours per day: 8
+- financial stress level (1-5): 4
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 9 (Label: 1):
+- age: 21
+- gender: Female
+- city: Ahmedabad
+- profession: Student
+- academic pressure level (1-5): 2
+- work pressure level (0-5): 0
+- CGPA (grade point average): 9.78
+- study satisfaction level (1-5): 4
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Unhealthy
+- degree program: B.Com
+- has had suicidal thoughts: Yes
+- work/study hours per day: 11
+- financial stress level (1-5): 4
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 10 (Label: 1):
+- age: 27
+- gender: Male
+- city: Bhopal
+- profession: Student
+- academic pressure level (1-5): 5
+- work pressure level (0-5): 0
+- CGPA (grade point average): 6.75
+- study satisfaction level (1-5): 4
+- job satisfaction level (0-5): 0
+- sleep duration: Less than 5 hours
+- dietary habits: Unhealthy
+- degree program: PhD
+- has had suicidal thoughts: Yes
+- work/study hours per day: 10
+- financial stress level (1-5): 3
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+================================================================================
+TEST SAMPLES:
+================================================================================
+
+Sample 1 (Label: 1, Predicted: 1):
+- age: 21
+- gender: Female
+- city: Patna
+- profession: Student
+- academic pressure level (1-5): 3
+- work pressure level (0-5): 0
+- CGPA (grade point average): 5.83
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: Less than 5 hours
+- dietary habits: Moderate
+- degree program: BCA
+- has had suicidal thoughts: Yes
+- work/study hours per day: 11
+- financial stress level (1-5): 4
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 2 (Label: 1, Predicted: 0):
+- age: 27
+- gender: Female
+- city: Vasai-Virar
+- profession: Student
+- academic pressure level (1-5): 4
+- work pressure level (0-5): 0
+- CGPA (grade point average): 5.12
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Healthy
+- degree program: ME
+- has had suicidal thoughts: Yes
+- work/study hours per day: 8
+- financial stress level (1-5): 2
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 3 (Label: 1, Predicted: 1):
+- age: 29
+- gender: Female
+- city: Bhopal
+- profession: Student
+- academic pressure level (1-5): 3
+- work pressure level (0-5): 0
+- CGPA (grade point average): 5.39
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: More than 8 hours
+- dietary habits: Moderate
+- degree program: M.Ed
+- has had suicidal thoughts: Yes
+- work/study hours per day: 6
+- financial stress level (1-5): 3
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 4 (Label: 1, Predicted: 1):
+- age: 18
+- gender: Female
+- city: Pune
+- profession: Student
+- academic pressure level (1-5): 5
+- work pressure level (0-5): 0
+- CGPA (grade point average): 6.00
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Unhealthy
+- degree program: Class 12
+- has had suicidal thoughts: Yes
+- work/study hours per day: 0
+- financial stress level (1-5): 3
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 5 (Label: 1, Predicted: 0):
+- age: 33
+- gender: Male
+- city: Delhi
+- profession: Student
+- academic pressure level (1-5): 5
+- work pressure level (0-5): 0
+- CGPA (grade point average): 9.97
+- study satisfaction level (1-5): 2
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Moderate
+- degree program: LLM
+- has had suicidal thoughts: No
+- work/study hours per day: 9
+- financial stress level (1-5): 3
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 6 (Label: 0, Predicted: 0):
+- age: 34
+- gender: Male
+- city: Agra
+- profession: Student
+- academic pressure level (1-5): 1
+- work pressure level (0-5): 0
+- CGPA (grade point average): 6.35
+- study satisfaction level (1-5): 4
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Healthy
+- degree program: MSc
+- has had suicidal thoughts: Yes
+- work/study hours per day: 8
+- financial stress level (1-5): 4
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 7 (Label: 0, Predicted: 1):
+- age: 18
+- gender: Male
+- city: Kalyan
+- profession: Student
+- academic pressure level (1-5): 4
+- work pressure level (0-5): 0
+- CGPA (grade point average): 7.02
+- study satisfaction level (1-5): 5
+- job satisfaction level (0-5): 0
+- sleep duration: 7-8 hours
+- dietary habits: Unhealthy
+- degree program: Class 12
+- has had suicidal thoughts: No
+- work/study hours per day: 11
+- financial stress level (1-5): 3
+- family history of mental illness: Yes
+--------------------------------------------------------------------------------
+
+Sample 8 (Label: 0, Predicted: 0):
+- age: 31
+- gender: Male
+- city: Less than 5 Kalyan
+- profession: Student
+- academic pressure level (1-5): 1
+- work pressure level (0-5): 0
+- CGPA (grade point average): 7.21
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: 5-6 hours
+- dietary habits: Healthy
+- degree program: M.Ed
+- has had suicidal thoughts: No
+- work/study hours per day: 2
+- financial stress level (1-5): 1
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 9 (Label: 1, Predicted: 0):
+- age: 30
+- gender: Female
+- city: Lucknow
+- profession: Student
+- academic pressure level (1-5): 1
+- work pressure level (0-5): 0
+- CGPA (grade point average): 8.97
+- study satisfaction level (1-5): 3
+- job satisfaction level (0-5): 0
+- sleep duration: 5-6 hours
+- dietary habits: Unhealthy
+- degree program: BA
+- has had suicidal thoughts: Yes
+- work/study hours per day: 0
+- financial stress level (1-5): 2
+- family history of mental illness: No
+--------------------------------------------------------------------------------
+
+Sample 10 (Label: 1, Predicted: 0):
+- age: 19
+- gender: Male
+- city: Nashik
+- profession: Student
+- academic pressure level (1-5): 3
+- work pressure level (0-5): 0
+- CGPA (grade point average): 6.21
+- study satisfaction level (1-5): 1
+- job satisfaction level (0-5): 0
+- sleep duration: 5-6 hours
+- dietary habits: Unhealthy
+- degree program: Class 12
+- has had suicidal thoughts: No
+- work/study hours per day: 7
+- financial stress level (1-5): 4
+- family history of mental illness: No
+--------------------------------------------------------------------------------

@@ -652,3 +652,47 @@ template_wine_list_values = '${fixed_acidity}\n' \
 template_config_wine_list_values = template_config_wine_list
 template_wine_list_shuffled = template_wine_list
 template_config_wine_list_shuffled = template_config_wine_list
+
+
+########################################################################################################################
+# student_depression
+########################################################################################################################
+# Student depression dataset with mental health indicators
+depression_feature_names = [
+    ('Age', 'age'),
+    ('Gender', 'gender'),
+    ('City', 'city'),
+    ('Profession', 'profession'),
+    ('Academic_Pressure', 'academic pressure level (1-5)'),
+    ('Work_Pressure', 'work pressure level (0-5)'),
+    ('CGPA', 'CGPA (grade point average)'),
+    ('Study_Satisfaction', 'study satisfaction level (1-5)'),
+    ('Job_Satisfaction', 'job satisfaction level (0-5)'),
+    ('Sleep_Duration', 'sleep duration'),
+    ('Dietary_Habits', 'dietary habits'),
+    ('Degree', 'degree program'),
+    ('Suicidal_Thoughts', 'has had suicidal thoughts'),
+    ('Work_Study_Hours', 'work/study hours per day'),
+    ('Financial_Stress', 'financial stress level (1-5)'),
+    ('Family_History', 'family history of mental illness'),
+]
+
+template_config_student_depression = {
+    'pre': {
+        'Age': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'CGPA': lambda x: f"{x:.2f}" if pd.notna(x) else '',
+        'Academic_Pressure': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'Work_Pressure': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'Study_Satisfaction': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'Job_Satisfaction': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'Work_Study_Hours': lambda x: f"{int(x)}" if pd.notna(x) else '',
+        'Financial_Stress': lambda x: f"{int(x)}" if pd.notna(x) else '',
+    }
+}
+
+template_student_depression = ' '.join(['The ' + v + ' is ${' + k + '}.' for k, v in depression_feature_names])
+template_config_student_depression_list = template_config_student_depression
+template_student_depression_list = '\n'.join(['- ' + v + ': ${' + k + '}' for k, v in depression_feature_names])
+template_student_depression_list_values = '\n'.join(['${' + k + '}' for k, v in depression_feature_names])
+template_student_depression_list_shuffled = template_student_depression_list
+template_config_student_depression_list_shuffled = template_config_student_depression_list
