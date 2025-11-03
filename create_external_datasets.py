@@ -41,6 +41,7 @@ cat_idx_dict = {
     "bank": [1,2,3,4,6,7,8,10,15],
     "jungle": [],
     "calhousing": [],
+    "student_depression": [0,2,3,9,10,11,12,15],  # Gender, City, Profession, Sleep Duration, Dietary Habits, Degree, Suicidal thoughts, Family History
 }
 bin_num = 10
 
@@ -363,6 +364,23 @@ def load_train_validation_test(dataset_name, data_dir):
         dataset_train, dataset_valid, dataset_test = train_validation_test_split(dataset)
         assert len(dataset_train) + len(dataset_valid) + len(dataset_test) == original_size
 
+    elif dataset_name == "student_depression":
+        # Load pre-split student depression data
+        dataset_train = pd.read_csv(data_dir / 'train_student_depression_sample.csv')
+        dataset_test = pd.read_csv(data_dir / 'test_student_depression_sample.csv')
+        # Create validation split from test set
+        dataset_valid, dataset_test = train_test_split(dataset_test, test_size=0.50, shuffle=False)
+        # Rename Depression column to label
+        dataset_train = dataset_train.rename(columns={'Depression': 'label'})
+        dataset_valid = dataset_valid.rename(columns={'Depression': 'label'})
+        dataset_test = dataset_test.rename(columns={'Depression': 'label'})
+        # Drop id column as it's not a feature
+        dataset_train = dataset_train.drop(columns=['id'])
+        dataset_valid = dataset_valid.drop(columns=['id'])
+        dataset_test = dataset_test.drop(columns=['id'])
+        # Set dataset for validation
+        dataset = dataset_train
+
     else:
         raise ValueError("Dataset not found")
 
@@ -377,7 +395,8 @@ def load_train_validation_test(dataset_name, data_dir):
         'bank': 17,
         'jungle': 7,
         'wine': 12,
-        'calhousing': 9
+        'calhousing': 9,
+        'student_depression': 17  # 16 features + 1 label
     }
     assert dataset_name in dataset_specs.keys() and len(dataset.columns) == dataset_specs[dataset_name]
 
